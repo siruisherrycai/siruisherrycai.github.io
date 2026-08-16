@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /robots.txt
+---
+# Crawling is intentionally ALLOWED even while the site is unlisted.
+#
+# Staying out of Google is handled by <meta name="robots" content="noindex">,
+# which is set from `noindex` in _config.yml. A crawler has to be able to FETCH
+# a page to see that tag -- so blocking here would hide the very instruction
+# that keeps the site out of search. If someone links to the site while it is
+# blocked, Google can index the bare URL with no description, which is the
+# worst of both worlds.
+#
+# See: https://developers.google.com/search/docs/crawling-indexing/block-indexing
+User-agent: *
+Allow: /

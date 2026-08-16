@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Presentations"
+permalink: /talks/
+author_profile: true
+---
+
+<table>
+  <thead>
+    <tr><th>Conference</th><th>Location</th><th>Date</th><th>Role</th></tr>
+  </thead>
+  <tbody>
+  {% assign events = site.talks | sort: 'date' | reverse %}
+  {% for t in events %}
+    <tr>
+      <td>{{ t.title }}{% if t.paper and t.paper != '' %}<br><span style="opacity:.75; font-size:.9em">{{ t.paper }}</span>{% endif %}</td>
+      <td>{{ t.location }}</td>
+      <td>{{ t.when }}</td>
+      <td>{% case t.role %}{% when 'presenting' %}Presenting{% when 'coauthor' %}Presented by co-author{% when 'attending' %}Attending{% else %}{{ t.role }}{% endcase %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
