@@ -38,7 +38,7 @@ Full abstracts for all papers are on the [Research](/publications/) page.
 
 Teaching
 ======
-Instructor of record for four undergraduate real estate courses at Georgia State University
+Instructor for four undergraduate real estate courses at Georgia State University
 (Market Analysis, Investments, Finance, Asset Management), 2024–2026, with a mean student
 rating of **4.79 / 5.00**. Teaching assistant for Real Estate Principles at Georgia State
 University, 2022–2024, and Corporate Finance at BNU–HKBU United International College, 2020.
@@ -46,7 +46,7 @@ Course-by-course evaluations are on the [Teaching](/teaching/) page.
 
 Conference presentations
 ======
-AREUEA–ASSA, FMA, Cambridge Real Estate Finance and Investment Symposium, ARES, JRER/UCF, and
+AREUEA–ASSA, Cambridge Real Estate Finance and Investment Symposium, ARES, JRER/UCF, and
 the Homer Hoyt Institute, 2026–2027. Full list with dates and papers is on the
 [Presentations](/talks/) page.
 

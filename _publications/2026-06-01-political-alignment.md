@@ -6,7 +6,6 @@ permalink: /publication/political-alignment
 excerpt: 'Linking North Carolina voter records to 250,000+ housing transactions, we find buyers are markedly more likely to purchase in politically aligned neighborhoods — an effect that shrank from 2010 to 2019 despite rising national polarization.'
 date: 2026-06-01
 venue: 'Working Paper'
-citation: 'Cai, Sirui, Yongqiang Chu, Thao Le, and Lily Shen. (2026). "Political Alignment and Neighborhood Choice Among Homebuyers." <i>Working Paper</i>.'
 authors: 'with Yongqiang Chu, Thao Le, and Lily Shen'
 status: 'Working paper, 2026'
 ---

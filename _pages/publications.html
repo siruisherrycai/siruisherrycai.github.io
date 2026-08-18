@@ -5,32 +5,25 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
+{% for category in site.publication_category %}
+  {% assign title_shown = false %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% if post.category != category[0] %}{% continue %}{% endif %}
+    {% unless title_shown %}
+      <h2>{{ category[1].title }}</h2><hr />
+      {% assign title_shown = true %}
+    {% endunless %}
+
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <h3 class="archive__item-title" itemprop="headline">
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        </h3>
+        <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        <div itemprop="description">{{ post.content }}</div>
+      </article>
+    </div>
   {% endfor %}
-{% endif %}
-
-
-
+{% endfor %}

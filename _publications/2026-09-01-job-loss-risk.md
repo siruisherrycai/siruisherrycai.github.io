@@ -6,7 +6,6 @@ permalink: /publication/job-loss-risk
 excerpt: 'I build an ex-ante job insecurity index from LinkedIn career histories and show that it predicts mortgage default beyond FICO, DTI, and LTV — yet lenders barely price it, transferring the exposure to the GSEs.'
 date: 2026-09-01
 venue: 'Job Market Paper'
-citation: 'Cai, Sirui. (2026). "Do Lenders Underestimate Job Loss Risk?" <i>Working Paper</i>.'
 authors: 'Sole authored'
 status: 'Job Market Paper'
 ---
@@ -29,5 +28,3 @@ Lenders respond only in part: approval rates fall modestly with industry risk, t
 rate does not compensate for it, and loans in higher-industry-risk areas are more likely to
 be securitized. Job-loss risk is thus underpriced at origination, and the unpriced exposure
 is transferred to the GSEs.
-
-*The full paper is available upon request.*

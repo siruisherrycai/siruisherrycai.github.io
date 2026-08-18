@@ -6,7 +6,6 @@ permalink: /publication/distributional-burden
 excerpt: 'Upward flood-premium repricing lands mostly on higher-income tracts, but once scaled by income the burden is sharply regressive — and price capitalization concentrates in low-income markets.'
 date: 2026-04-01
 venue: 'Working Paper (under revision)'
-citation: 'Cai, Sirui and Lily Shen. (2026). "The Distributional Burden of Actuarial Flood Insurance Reform: Evidence from FEMA''s Risk Rating 2.0." <i>Working Paper</i>.'
 authors: 'with Lily Shen'
 status: 'Working paper, 2026 — under revision'
 ---

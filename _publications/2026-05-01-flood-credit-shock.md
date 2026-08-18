@@ -6,7 +6,6 @@ permalink: /publication/flood-credit-shock
 excerpt: 'Actuarial flood insurance repricing in Florida cut sale prices 2% and mortgage approvals 1.4pp, concentrated among low-income applicants — evidence of a lender-mediated affordability channel.'
 date: 2026-05-01
 venue: 'Working Paper'
-citation: 'Cai, Sirui and Lily Shen. (2026). "Flood Insurance Repricing as a Mortgage Credit Shock: Evidence from FEMA''s Risk Rating 2.0." <i>Working Paper</i>.'
 authors: 'with Lily Shen'
 status: 'Working paper, 2026'
 ---
