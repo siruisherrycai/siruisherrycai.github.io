@@ -21,7 +21,11 @@ author_profile: true
         <h3 class="archive__item-title" itemprop="headline">
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
         </h3>
-        <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        {% comment %}Venue is only shown for published work — under the "Job Market Paper"
+        and "Working Papers" headings it would just repeat the heading.{% endcomment %}
+        {% if post.category == 'manuscripts' %}
+          <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        {% endif %}
         <div itemprop="description">{{ post.content }}</div>
       </article>
     </div>

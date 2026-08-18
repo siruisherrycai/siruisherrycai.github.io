@@ -30,7 +30,7 @@ Working papers
 ======
 {% for p in papers %}{% if p.category == 'jobmarket' or p.category == 'workingpapers' %}
 **{{ p.title }}**{% if p.category == 'jobmarket' %} — *Job Market Paper*{% endif %}<br>
-{{ p.authors }}{% if p.category != 'jobmarket' %} · *{{ p.status }}*{% endif %}<br>
+{{ p.authors }}{% if p.status contains 'under revision' %} · *under revision*{% endif %}<br>
 <span style="opacity:.8">{{ p.excerpt }}</span>
 {% endif %}{% endfor %}
 
