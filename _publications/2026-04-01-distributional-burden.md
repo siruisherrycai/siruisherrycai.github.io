@@ -5,12 +5,12 @@ category: workingpapers
 permalink: /publication/distributional-burden
 excerpt: 'Upward flood-premium repricing lands mostly on higher-income tracts, but once scaled by income the burden is sharply regressive — and price capitalization concentrates in low-income markets.'
 date: 2026-04-01
-venue: 'Working Paper (under revision)'
+venue: 'Working Paper (work in progress)'
 authors: 'with Lily Shen'
-status: 'Working paper, 2026 — under revision'
+status: 'Work in progress, 2026'
 ---
 
-with **Lily Shen** — *under revision*
+with **Lily Shen** — *work in progress*
 
 Risk Rating 2.0 replaced the National Flood Insurance Program's zone-based premiums with
 property-level actuarial rates. Linking NFIP policy microdata with ACS demographics and

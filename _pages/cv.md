@@ -5,4 +5,4 @@ permalink: /cv/
 author_profile: true
 ---
 
-[Download the full CV (PDF)](/files/Cai_CV.pdf){: .btn .btn--primary}
+[Download the full CV (PDF)](/files/Sirui_Cai_CV.pdf){: .btn .btn--primary}

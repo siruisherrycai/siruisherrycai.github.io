@@ -20,10 +20,11 @@ types.
 * **FMA Annual Meeting** — Tampa, FL, October 14–17, 2026
 * **AREUEA–ASSA Meetings** — Washington, DC, January 2027
 
-My job market paper is [**Do Lenders Underestimate Job Loss
-Risk?**](/publication/job-loss-risk) It builds an ex-ante job insecurity index from LinkedIn
-career histories and shows that it predicts mortgage default well beyond FICO, DTI, and LTV —
-yet lenders barely price it, transferring the unpriced exposure to the GSEs.
+My job market paper is [**What Lenders See and Miss: Job-Loss Risk in Mortgage
+Lending**](/publication/job-loss-risk). It builds job-loss risk indices from LinkedIn career
+histories of more than 52 million workers and shows that they predict early mortgage default —
+yet lenders only partially recognize this risk, and the unpriced exposure is transferred to
+the secondary market.
 
 [Research](/publications/){: .btn .btn--primary}
 [Curriculum Vitae](/cv/){: .btn}
