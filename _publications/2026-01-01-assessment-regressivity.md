@@ -6,6 +6,7 @@ permalink: /publication/assessment-regressivity
 excerpt: 'Property tax assessment is severely regressive within large residential, commercial, and industrial classes in Cook County, and the appeal process makes it worse rather than better.'
 date: 2026-01-01
 venue: 'Real Estate Economics'
+paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/1540-6229.70051'
 authors: 'with Jon Wiley'
 status: 'Real Estate Economics, 2026'
 ---

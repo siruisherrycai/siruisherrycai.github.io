@@ -18,8 +18,14 @@ author_profile: true
 
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        {% comment %}Titles are plain text; only papers with a paperurl (published work)
+        link out to the journal page.{% endcomment %}
         <h3 class="archive__item-title" itemprop="headline">
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+          {% else %}
+            {{ post.title }}
+          {% endif %}
         </h3>
         {% comment %}Venue is only shown for published work — under the "Job Market Paper"
         and "Working Papers" headings it would just repeat the heading.{% endcomment %}
