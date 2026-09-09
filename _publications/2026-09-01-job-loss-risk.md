@@ -17,9 +17,7 @@ loss following separation. Linking these measures to mortgage performance, we fi
 borrowers in riskier occupations and industries are more likely to default within the first
 two years after origination. A one-standard-deviation increase in job-loss risk is associated
 with a 0.27 percentage point increase in the default rate, about 12 percent of the sample
-mean.
-
-Yet lenders only partially recognize this risk: borrowers in riskier industries are less
+mean. Yet lenders only partially recognize this risk: borrowers in riskier industries are less
 likely to be approved, and their loans are more likely to be sold, but interest rates reflect
 neither occupation nor industry risk. Job-loss risk is therefore underpriced at origination,
 and the unpriced exposure is transferred to the secondary market.
