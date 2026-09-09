@@ -9,16 +9,9 @@ venue: 'Working Paper'
 authors: 'with Yongqiang Chu, Thao Le, and Lily Shen'
 status: 'Working paper, 2026'
 ---
-
 with **Yongqiang Chu**, **Thao Le**, and **Lily Shen**
 
-We study the impact of buyers' political identity on home purchasing using North Carolina
-voter records linked to more than 250,000 housing transactions and over six million
-comparable MLS listings. Using a Bartik-type shift-share IV framework, we find that buyers
-are significantly more likely to purchase homes in politically aligned neighborhoods, with
-alignment increasing purchase probability by about 1.58 percentage points relative to a
-3 percent baseline. The effect is strongest among Republican buyers and declines sharply
-from 2010 to 2019 despite rising national polarization.
+We study the impact of buyers' political identity on home purchasing using North Carolina voter records linked to more than 250,000 housing transactions and over six million comparable MLS listings. Using a Bartik-type shift-share IV framework, we find that buyers are significantly more likely to purchase homes in politically aligned neighborhoods, with alignment increasing purchase probability by about 1.58 percentage points relative to a 3 percent baseline. The effect is strongest among Republican buyers and declines sharply from 2010 to 2019 despite rising national polarization.
 
 **Presented at:** AREUEA-ASSA Conference (2027)\*; ARES 42nd Annual Meeting, Destin, FL
 (2026); Homer Hoyt Institute, West Palm Beach, FL (2026)\*
