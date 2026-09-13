@@ -4,6 +4,6 @@ collection: teaching
 role: ta
 term: "2020"
 rating: ""
-venue: "BNU–HKBU United International College"
+venue: "Beijing Normal-Hong Kong Baptist University"
 date: 2020-01-01
 ---
