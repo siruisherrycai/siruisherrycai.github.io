@@ -1,25 +1,28 @@
 /* ==========================================================================
-    DEFAULT THEME - DARK VERSION
+    DEFAULT THEME - DARK VERSION (blue palette)
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #0ea1c5;
+$primary-color              : #5aa2f0;
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
+$background                 : #1e2a3a;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$text                       : #f1f5fa;
+$link                       : #7db8ff;
+$link-dark                  : mix(#fff, $link, 25%);
+$link-light                 : mix(#000, $link, 20%);
+$frame                      : #5a86bf;
+$line                       : #3a5578;
+$thead-bg                   : #26374e;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
+$info-color                 : #1f5fa8;
 $notice-color               : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
@@ -38,9 +41,9 @@ $sidebar-screen-min-width   : 1024px;
 html[data-theme="dark"] {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
+    --global-footer-bg-color            : #{$thead-bg};
+    --global-border-color               : #{$line};
+    --global-dark-border-color          : #{$frame};
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$light-gray};
@@ -50,7 +53,11 @@ html[data-theme="dark"] {
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-text-color-light           : #c9d4e2;
+    --global-thead-color                : #{$thead-bg};
+    --global-heading-color              : #a9cdfa;
+    --global-table-frame-color          : #{$frame};
+    --global-table-line-color           : #{$line};
+    --global-thead-bg-color             : #{$thead-bg};
+    --global-thead-text-color           : #d6e6fb;
 }
-

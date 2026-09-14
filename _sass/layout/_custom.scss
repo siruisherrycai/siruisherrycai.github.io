@@ -1,0 +1,47 @@
+/* ==========================================================================
+   SITE CUSTOMISATIONS - blue theme accents
+   ========================================================================== */
+
+/* Headings and the site title pick up the deep blue */
+h1, h2, h3,
+.page__title,
+.archive__item-title,
+.masthead .site-title,
+.author__name {
+  color: var(--global-heading-color);
+}
+
+/* Tables: blue outer frame, light-blue inner lines, pale-blue header row */
+table {
+  border: 2px solid var(--global-table-frame-color);
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+thead {
+  background-color: var(--global-thead-bg-color);
+  border-bottom: 2px solid var(--global-table-frame-color);
+}
+
+th {
+  color: var(--global-thead-text-color);
+  border-right: 1px solid var(--global-table-line-color);
+}
+
+td {
+  border-bottom: 1px solid var(--global-table-line-color);
+  border-right: 1px solid var(--global-table-line-color);
+}
+
+th:last-child, td:last-child {
+  border-right: 0;
+}
+
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Quoted student comments on the teaching page */
+.student-comments li {
+  border-left-color: var(--global-table-frame-color);
+}
