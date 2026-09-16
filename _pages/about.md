@@ -8,8 +8,8 @@ I am a PhD candidate in Business Administration with a concentration in Real Est
 [J. Mack Robinson College of Business](https://robinson.gsu.edu/), [Georgia State
 University](https://www.gsu.edu/).
 
-My research sits at the intersection of household finance and urban economics. I study how
-mortgage markets price risks that are difficult to observe at origination — job-loss risk
+My research sits at the intersection of household finance and real estate. I study how
+mortgage markets price risks that are difficult to observe at origination: job-loss risk
 and flood risk. I also study inconsistencies in property tax assessments across property
 types.
 
@@ -22,8 +22,8 @@ types.
 
 My job market paper is [**What Lenders See and Miss: Job-Loss Risk in Mortgage
 Lending**](/publication/job-loss-risk). It builds job-loss risk indices from LinkedIn career
-histories of more than 52 million workers and shows that they predict early mortgage default —
-yet lenders only partially recognize this risk, and the unpriced exposure is transferred to
+histories of more than 52 million workers and shows that they predict early mortgage default.
+Yet lenders only partially recognize this risk, and the unpriced exposure is transferred to
 the secondary market.
 
 [Research](/publications/){: .btn .btn--primary}
